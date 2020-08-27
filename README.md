@@ -1,10 +1,6 @@
 # spacevim_nvim
 spacevim_nvim
 
-## vim8 install
-# 卸载老的vim
-    yum remove vim -y
-
 ## install nvim
     cp nvim /usr/bin/
 

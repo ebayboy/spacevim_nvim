@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="enabled" mtime="1597112673" type="bool" value="true"/>
+	<entry name="command" mtime="1597112673" type="string">
+		<stringvalue>/usr/bin/javaws.itweb %s</stringvalue>
+	</entry>
+</gconf>

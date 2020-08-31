@@ -28,11 +28,11 @@
     # Enable vim compatible mode, avoid changing origin vim key bindings
     vimcompatible = true
 
-# Enable autocomplete layer
 [[layers]]
-name = 'autocomplete'
-auto_completion_return_key_behavior = "complete"
-auto_completion_tab_key_behavior = "cycle"
+  name = 'autocomplete'
+  auto_completion_return_key_behavior = "complete"
+  auto_completion_tab_key_behavior = "smart"
+#auto_completion_tab_key_behavior = "cycle"
 
 [[layers]]
 name = 'shell'
@@ -43,9 +43,15 @@ default_height = 30
 [[layers]]
   name = "lang#c"
 
-#代码补全
 [[layers]]
-  name = "lsp"
+  name = "lang#c"
+  enable = true
+  clang_executable = "/usr/bin/clang"
+  [layer.clang_std]
+    c = "c11"
+    cpp = "c++1z"
+    objc = "c11"
+    objcpp = "c++1z"
 
 [[layers]]
   name = "lsp"
